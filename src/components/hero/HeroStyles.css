@@ -1,0 +1,49 @@
+:root {
+  -yellow: #fbff00
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+}
+
+.hero .container {
+  background-color: #2c2c2c;
+}
+
+.hero .content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  margin-left: 6rem;
+}
+
+.carousel-item {
+  height: 500px;
+  color: azure;
+  font-size: 30px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slick-prev:before, .slick-next:before{
+  color: #6b6b6b !important;
+}
+
+.item1 {
+  background: url('../../assets/cup-of-coffee-g3c63a3422_1920.jpg') no-repeat center/cover;
+}
+
+.item2 {
+  background: url('../../assets/laptop-gb61cffb0e_1920.jpg') no-repeat center/cover;
+}
+
+@media screen and (max-width:940px) {
+ .hero .content {
+  margin-left: 1rem;
+ } 
+}

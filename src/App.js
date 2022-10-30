@@ -5,13 +5,15 @@ import {
   Routes
 } from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
-import Hero from './components/hero/Hero'
+import Hero from './components/hero/Hero';
+import AreaAtuacao from'./components/areas-atuacao/AreaAtuacao';
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <AreaAtuacao />
     </>
   );
 }

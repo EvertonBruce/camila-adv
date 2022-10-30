@@ -30,14 +30,14 @@ const Header = () => {
       // </header>
       <div className='navbar'>
         <div className="container">
-          <div className="logo">
+          <a className="logo" href='/'>
             <GiScales className='icon'/>
             <div className="logo-nome">
-              <h1>CAMILA</h1>
-              <h1>BERNARDO</h1>
-              <h1>ADVOGADA</h1>
+              <p>CAMILA</p>
+              <p>BERNARDO</p>
+              <p className='advogada'>ADVOGADA</p>
             </div>
-          </div>
+          </a>
 
           <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
             <li>Home</li>

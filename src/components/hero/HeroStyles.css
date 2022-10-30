@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Mukta:wght@400;600;800&display=swap');
+
 :root {
-  -yellow: #fbff00
+  -yellow: #fbff00;
+  -gold: #c09543;
 }
 
 .hero {
@@ -9,6 +12,44 @@
 
 .hero .container {
   background-color: #2c2c2c;
+  max-width: 100%;
+}
+
+.hero .container .plano-fundo {
+  background-color: rgb(204 204 204 / 36%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.hero .container h3,
+.hero .container h1,
+.hero .container a {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 0;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.hero .container .faca-consultoria {
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.slick-next {
+  left: calc(100% - 28px);
+}
+
+.slick-prev {
+  left: -1px !important;
+  z-index: 1;
+}
+
+.hero .container .slick-prev:before,
+.hero .container .slick-next:before {
+  color: white !important;
+  font-size: 30px;
 }
 
 .hero .content {
@@ -17,7 +58,6 @@
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
-  margin-left: 6rem;
 }
 
 .carousel-item {
@@ -38,12 +78,62 @@
   background: url('../../assets/cup-of-coffee-g3c63a3422_1920.jpg') no-repeat center/cover;
 }
 
+.hero-btn {
+  display: block;
+  height: 25px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 25px;
+  z-index: 10;
+  text-decoration: none;
+}
+
+.saiba-mais {
+  background: #c09543;
+  color: #2c2c2c;
+  transition: .5s ease-in;
+}
+
+.saiba-mais:hover {
+  transition: .5s ease-out;
+  background-color: #2c2c2c;
+  color: #c09543;
+}
+
+.nossos-servicos {
+  background-color: #2c2c2c;
+  color: #c09543;
+  transition: .5s ease-in;
+}
+
+.nossos-servicos:hover {
+  transition: .5s ease-out;
+  background-color: #c09543;
+  color: #2c2c2c;
+}
+
 .item2 {
   background: url('../../assets/laptop-gb61cffb0e_1920.jpg') no-repeat center/cover;
+  color: #2c2c2c;
 }
 
 @media screen and (max-width:940px) {
  .hero .content {
   margin-left: 1rem;
  } 
+
+  .hero .container h3,
+  .hero .container h1,
+  .hero .container a {
+    font-size: 1em;
+    margin: 10px 40px;
+    font-weight: 600;
+  }
+
+  .hero .container .faca-consultoria {
+    font-weight: 400;
+    font-size: 1em;
+    margin: 40px 0;
+  }
 }

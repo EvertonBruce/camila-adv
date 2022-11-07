@@ -30,6 +30,7 @@
   margin: 10px 0;
   font-weight: 600;
   z-index: 1;
+  margin: 0 120px
 }
 
 .hero .container .faca-consultoria {
@@ -120,20 +121,21 @@
 
 @media screen and (max-width:940px) {
  .hero .content {
-  margin-left: 1rem;
+    margin-left: 1rem;
  } 
 
   .hero .container h3,
   .hero .container h1,
   .hero .container a {
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 10px 40px;
     font-weight: 600;
+    text-align: center;
   }
 
   .hero .container .faca-consultoria {
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 40px 0;
   }
 }

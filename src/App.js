@@ -4,6 +4,7 @@ import Hero from './components/hero/Hero';
 import AreaAtuacao from './components/areas-atuacao/AreaAtuacao';
 import Contato from './components/contato/Contato'
 import Wpp from './components/wpp-button/WppButton'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AreaAtuacao />
       <Contato />
       <Wpp />
+      <Footer />
     </>
   );
 }

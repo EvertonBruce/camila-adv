@@ -18,7 +18,7 @@
 }
 
 .logo .icon {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-right: 0.5rem;
   padding-right: 0.5rem;
   border-right: 0.5px #c09543 solid;
@@ -40,6 +40,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .hamburger {
@@ -103,4 +104,18 @@
     font-size: 2rem;
   }
 
+}
+
+@media screen and (max-width: 375px) {
+  .logo .icon {
+    font-size: 3rem;
+  }
+  
+  .logo-nome {
+    font-size: 20px;
+  }
+  
+  .logo-nome .advogada {
+    font-size: 13.5px;
+  }
 }

@@ -61,11 +61,17 @@
 
 .container .card .content {
   padding: 5px;
-  text-align: center;
+  text-align: left;
+}
+
+.container .area-texto {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 10px;
+  max-width: 672px;
 }
 
 .container .card:hover {
-  margin-top: -20px;
   box-shadow: 2px 20px 25px #333;
 }
 

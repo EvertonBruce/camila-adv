@@ -16,10 +16,9 @@ const AreaAtuacao = () => {
               <h1>Cível</h1>
               <div className="content">
                 <ul>
-                  <li>dsaklçdskaldkas</li>
-                  <li>dsaklçdskaldkas</li>
-                  <li>dsaklçdskaldkas</li>
-                  <li>dsaklçdskaldkas</li>
+                  <li>Família</li>
+                  <li>Sucessões</li>
+                  <li>Contratos</li>                
                 </ul>
               </div>
             </div>
@@ -29,14 +28,19 @@ const AreaAtuacao = () => {
               <h1>Tributário</h1>
               <div className="content">
                 <ul>
-                  <li>dsaklçdskaldkas</li>
-                  <li>dsaklçdskaldkas</li>
-                  <li>dsaklçdskaldkas</li>
-                  <li>dsaklçdskaldkas</li>
+                  <li>Revisão de Inscrição em Dívida Ativa</li>
+                  <li>Execução Fiscal</li>
+                  <li>Bloqueio de Bens</li>
+                  <li>Consultoria</li>
                 </ul>
               </div>
             </div>
           </div>
+            <div className='area-texto'>
+              Prestamos de acessoria jurídica para empresas e pessoas, em todo o país, 
+              através de atendimento online ou presencial buscando apresentar soluções 
+              customizadas, para cada situação.
+            </div>
         </div>
       </div>
     </div>

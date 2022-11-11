@@ -11,7 +11,7 @@ const Contato = () => {
         <div className="content">
           <div className='fale-conosco'>
             <span><BsWhatsapp />&nbsp;(31) 99382-4670</span>
-            <span><AiOutlineMail />&nbsp;exemplo@gmail.com</span>
+            <span><AiOutlineMail />&nbsp;camilaadvbernardo@gmail.com</span>
           </div>
           <div className="sobre-mim">
             <span>Camila Bernardo Silva</span>

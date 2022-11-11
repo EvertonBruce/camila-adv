@@ -13,7 +13,7 @@ const Footer = () => {
               <p>CAMILA BERNARDO</p>
               <p className='advogada'>ADVOGADA</p>
             </div>
-            <span>Todos os direitos reservados a Camila Bernardo Advocacia - Desenvolvido por <a href="https://www.linkedin.com/in/everton-nascimento-de-oliveira" target="_blank">Everton Bruce</a></span>
+            <span>Todos os direitos reservados a Camila Bernardo Advocacia - Desenvolvido por <a href="https://www.linkedin.com/in/everton-nascimento-de-oliveira" target="_blank" rel="noreferrer" >Everton Bruce</a></span>
           </div>
         </div>
       </div>

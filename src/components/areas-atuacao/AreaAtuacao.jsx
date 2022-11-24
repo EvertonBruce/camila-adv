@@ -37,7 +37,7 @@ const AreaAtuacao = () => {
             </div>
           </div>
             <div className='area-texto'>
-              Prestamos de acessoria jurídica para empresas e pessoas, em todo o país 
+              Prestamos acessoria jurídica para empresas e pessoas, em todo o país 
               através de atendimento online ou presencial, buscando apresentar soluções 
               customizadas para cada situação.
             </div>
